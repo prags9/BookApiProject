@@ -13,7 +13,7 @@ namespace BookApi.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required]
-        [MaxLength(50, ErrorMessage = "Country cannit be more than 50")]
+        [MaxLength(50, ErrorMessage = "Country cannot be more than 50")]
         public string Name { get; set; }
         public virtual ICollection<BookCategory> BookCategories { get; set; }
     }

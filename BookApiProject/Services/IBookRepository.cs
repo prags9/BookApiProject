@@ -15,5 +15,10 @@ namespace BookApiProject.Services
         decimal GetBookRating(int bookId);
         Boolean BookExists(int bookId);
         Boolean BookExists(string isbn);
+
+        Boolean CreateBook(List<int> authorsId, List<int> categoiesId, Book book);
+        Boolean UpdateBook(List<int> authorsId, List<int> categoiesId, Book book);
+        Boolean DeleteBook(Book book);
+        Boolean Save();
     }
 }

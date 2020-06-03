@@ -13,5 +13,9 @@ namespace BookApiProject.Services
         ICollection<Author> GetAuthorsByBook(int bookId);
         ICollection<Book> GetBooksByAuthor(int authorId);
         Boolean AuthorExists(int authorId);
+        bool CreateAuthor(Author author);
+        bool UpdateAuthor(Author author);
+        bool DeleteAuthor(Author author);
+        bool Save();
     }
 }

@@ -157,7 +157,7 @@ namespace BookApiProject.Controllers
             {
                 return BadRequest(ModelState);
             }
-            if (_categoryRepository.CategoryExists(categoryId))
+            if (!_categoryRepository.CategoryExists(categoryId))
             {
                 return NotFound();
             }

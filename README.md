@@ -23,7 +23,7 @@ This project has 6 classes -
  It has the basic CRUD operations: GET, CREATE, UPDATE, DELETE
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./BOOKAPISS.png)
 
 ## Technologies
 * ASP.net core - version 2.1
